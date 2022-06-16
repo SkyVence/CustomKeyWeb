@@ -26,7 +26,7 @@
            <div class="profile">
             <a href="login.php" >
                 <span><img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg" alt="profile_picture"></span>
-                <span><h3>Antoine Mathié</h3></span>
+                <span><?php echo htmlspecialchars($_SESSION["username"]); ?></span>
                 <span><p>Administrateur</p></span>
             </a>
             </div>
